@@ -1,0 +1,53 @@
+canonical_identifier: bkk:krp/KR5b0245/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5b0245/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上靈寶十方應號天尊懺
+  date: '2015-08-29 00:14:42.796266'
+  source:
+    repository: kanripo
+    path: KR5b0245
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0245_000-HFL.yaml, hash: 'sha256:519dea29f6432ab20de54e20d6c49850df0279d87f69687ba8fb603beea103c2'}
+  - {seq: 1, filename: KR5b0245_001-HFL.yaml, hash: 'sha256:803bd28c120b603f5973cdb692c5a18d0ed94488c62b22f5ecfee82d12012f9a'}
+  - {seq: 2, filename: KR5b0245_002-HFL.yaml, hash: 'sha256:cbd863a9c5bb4e82118fb4a72c25fcc8c2cd0901cd04c59701b2c68cce85975b'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5b0245_001-HFL.markers.yaml, hash: 'sha256:885dfc2740d1d70b3211668236c8b77feaeea2bb829b90e7b853a42bfb324383'}
+  - {seq: 2, role: markers, filename: assets/KR5b0245_002-HFL.markers.yaml, hash: 'sha256:af29a0113bc5f9efe239b399ef62bd40da6a9dce7d4e64643ff77d50b28f3ca4'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR5b0245_HFL_001-001a
+    span:
+    - body
+    - 0
+    - 3607
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5b0245_HFL_002-001a
+    span:
+    - body
+    - 0
+    - 3989
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:eff7e0d2916e9df8b968a44e3fbeba6cda5927d6a5ba393552a5894ab727057c
